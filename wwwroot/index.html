@@ -1,0 +1,41 @@
+﻿<!doctype html>
+
+<html lang="en">
+
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>Smart Search</title>
+
+</head>
+
+<body class="page">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+            integrity="sha384-vk5WoKIaW/vJyUAd9n/wmopsmNhiy+L2Z+SBxGYnUkunIxVxAv/UtMOhba/xskxh"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/ui-darkness/jquery-ui.css" 
+            integrity="sha384-1RvqbC+xmnFD+R90ORvfEPxKEe7V5yfOhSi9htdS9dFQdjlgDF9u7gN+s1PGJAC2" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"
+            integrity="sha384-Dziy8F2VlJQLMShA6FHWNul/veM9bCkRUaLqr199K94ntO5QUrLJBEbYegdSkkqX" crossorigin="anonymous"></script>
+
+    <h1 id="smartSearchHeader">smart search</h1>
+
+    <input type="text" placeholder="Search..." id="query">
+    <br /><br />
+
+    <button id="search" class="btn" onclick="searchClick()">SEARCH</button>
+    <script type="text/javascript" src="./script.js"></script>
+    <br /><br />
+
+    <button id="timeButton" class="btn" onclick="currentTime()">CURRENT TIME</button>
+    <script type="text/javascript" src="./script.js"></script>
+
+    <div id="searchResults" title="Search Results"></div>
+
+    <div id="time" title="Current Time"></div>
+
+</body>
+
+</html>
